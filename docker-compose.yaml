@@ -1,0 +1,8 @@
+services:
+  mcp-server:
+    image: demo-mcp-server-local
+    network_mode: "host"
+  langflow-agents:
+    image: demo-langflow-agents-local
+    network_mode: "host"
+    
